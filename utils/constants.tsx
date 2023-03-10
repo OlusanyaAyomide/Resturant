@@ -109,3 +109,37 @@ export const SpecialOffersList =[
     ] 
   } 
 ]
+
+export const TestimoniesList =[
+  {
+    image:Resources.Testimony01,name:"Daniel Sppre",location:"NewYork",text:"It is professional, considers everyone's time, can think about the There are many variations of passages whole probls small niche, friendly"
+  },
+  {
+  image:Resources.Testimony02,name:"Natasha D",location:"Salt Lake City",text:"It is professional, considers everyone's time, can think about the There are many variations of passages whole probls small niche, friendly"
+  },
+  {
+    image:Resources.Testimony03,name:"Natasha D",location:"Salt Lake City",text:"It is professional, considers everyone's time, can think about the There are many variations of passages whole probls small niche, friendly"
+  },
+  {
+    image:Resources.Testimony01,name:"Allexainier coleMan",location:"London",text:"It is professional, considers everyone's time, can think about the There are many variations of passages whole probls small niche, friendly"
+  },
+]
+
+
+export const fakeHeader = "Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content making."
+
+
+export const PopularList =[
+  {
+   image:Resources.Popular01,title:"Sphagetti Sauce",price:"$15",content:"Lorem Ipsum is that it has a more-or-less normal"
+  },
+  {
+    image:Resources.Popular02,title:"hamburg Salad",price:"$18",content:"Lorem Ipsum is that it has a more-or-less normal"
+   },
+   {
+    image:Resources.Popular03,title:"French Naturis",price:"$18",content:"Lorem Ipsum is that it has a more-or-less normal"
+   },
+   {
+    image:Resources.Popular04,title:"Beef Sandwich",price:"$22",content:"Lorem Ipsum is that it has a more-or-less normal"
+   },
+]

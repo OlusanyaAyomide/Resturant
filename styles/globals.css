@@ -12,6 +12,26 @@
   --r-pink:#FFF8F5;
 }
 
+@media (min-width: 640px) {
+  *{
+    scrollbar-width:thin;
+  }
+  *::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    background: var(--primary);
+    border-radius: 5px;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(128 128 128 / 0.4);
+    border-radius: 14px;
+    border: 3px solid var(--primary);
+  }
+}
+
+
 .tophero-shadow{
   box-shadow: 0px 16px  16px var(--trans-black);
 }
@@ -46,5 +66,9 @@
 }
 .dots{
   @apply before:absolute before:-left-[2px] before:-bottom-[2px] before:h-[4px] before:w-[4px] before:rounded-full before:bg-[#c9bfbf] after:absolute after:-right-[2px] after:-bottom-[2px] after:h-[4px] after:w-[4px] after:rounded-full after:bg-[#c9bfbf]
+}
+
+.testimony{
+  @apply text-sm relative decoration-2 underline underline-offset-2 decoration-r-yellow before:absolute before:w-full before:border-t-[2px] before:-top-1 before:border-r-yellow uppercase
 }
 @tailwind utilities;

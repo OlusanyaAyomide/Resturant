@@ -16,8 +16,19 @@ import Starter04 from "./Starter04.png"
 import Desert01 from "./Desert01.png"
 import Desert02 from "./Desert02.png"
 import Special from "./Special.png"
-
+import Testimony01 from "./Testimony01.png"
+import Testimony02 from "./Testimony02.png"
+import Testimony03 from "./Testimony03.png"
+import Testimony from "./Testimony.png"
+import BlackStar from "./BlackStar.svg"
+import WhiteStar from "./WhiteStar.svg"
+import SpecialOffer01 from "./SpecialOffer01.png"
+import SpecialOffer02 from "./SpecialOffer02.png"
+import Popular01  from "./Popular01.png"
+import Popular02  from "./Popular02.png"
+import Popular03  from "./Popular03.png"
+import Popular04  from "./Popular04.png"
 const Resources={
-    Logo:Logo,CafeView,Location,OpenHours,Reservation,Sittings,Josefine,Dish01,Dish02,Dish03,Dish04,Starter01,Starter02,Starter03,Starter04,Desert01,Desert02,Special
+    Logo:Logo,CafeView,Location,OpenHours,Reservation,Sittings,Josefine,Dish01,Dish02,Dish03,Dish04,Starter01,Starter02,Starter03,Starter04,Desert01,Desert02,Special,Testimony01,Testimony02,Testimony03,Testimony,BlackStar,WhiteStar,SpecialOffer01,SpecialOffer02,Popular01,Popular02,Popular03,Popular04
 } 
 export default Resources
