@@ -5,6 +5,8 @@ import BottomHero from '@/components/Home/Hero/BottomHero'
 import SpecialOffer from '@/components/Home/Special/SpecialOffer'
 import Testimonies from '@/components/Home/Testimonies/Testimonies'
 import SpecialAndPopular from '@/components/Home/offers/SpecialOffer'
+import Services from '@/components/Services/Services'
+import Blog from '@/components/Home/HomeBlog/Blog'
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
     <SpecialOffer/>
     <Testimonies/>
     <SpecialAndPopular/>
+    <Services/>
+    <Blog/>
     </div>
   
   </Fragment>

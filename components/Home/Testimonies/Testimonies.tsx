@@ -9,11 +9,11 @@ export default function Testimonies() {
       <span className='testimony'>Testimonies</span>
       <h1 className='h3text text-white-text'>What our client say</h1>
       <p className='ptext text-white-text mb-6'>We love to hear from customers, so please leave a comment or say hello in an email.</p>
-      <div className='flex overflow-auto'>
+      <div className='flex overflow-auto lg:justify-center'>
         {TestimoniesList.map((item,key)=>{
           return(
             <div key={key}>
-              <div className='w-[300px] px-2 mb-4'>
+              <div className='w-[280px] sm:h-[300px] py-4 px-2 mb-4'>
                 <div className='bg-[#343942] rounded-sm p-2'>
                   <div className='flex items-center pb-4 border-b border-white-text'>
                     <div>

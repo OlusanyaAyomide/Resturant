@@ -46,10 +46,10 @@
   @apply text-base md:text-lg text-base-text font-josefin
 }
 .cont{
-  @apply px-3 sm:px-5 md:px-4 lg:px-12
+  @apply px-3 sm:px-5 md:px-8 lg:px-12
 }
 .removecont{
-  @apply -mx-3 sm:-mx-3 md:-mx-4 lg:-mx-12
+  @apply -mx-3 sm:-mx-5 md:-mx-8 lg:-mx-12
 }
 .welcome-text{
   @apply text-5xl sm:text-6xl md:text-5xl lg:text-[70px] lg:leading-[77.1px]
@@ -70,5 +70,10 @@
 
 .testimony{
   @apply text-sm relative decoration-2 underline underline-offset-2 decoration-r-yellow before:absolute before:w-full before:border-t-[2px] before:-top-1 before:border-r-yellow uppercase
+}
+
+
+.darkcover{
+  @apply before:absolute before:inset-0 before:bg-black/70
 }
 @tailwind utilities;

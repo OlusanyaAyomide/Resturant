@@ -143,3 +143,15 @@ export const PopularList =[
     image:Resources.Popular04,title:"Beef Sandwich",price:"$22",content:"Lorem Ipsum is that it has a more-or-less normal"
    },
 ]
+
+export const servicesList = [
+  {image:Resources.Calendar,text:"Opened 247"},
+  {image:Resources.Cafe,text:"Special Menu"},
+  {image:Resources.Bike,text:"Home Delivery"},
+]
+
+
+export const BlogIntro =[
+  {image:Resources.Blog001,title:"Resturants Feb 2 2022",heading:"The Most Popular Delicious Food Of Mediterranean Cuisine",paragraph:'Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.'},
+  {image:Resources.Popular02,title:"Resturants Feb 2 2022",heading:"The Most Popular Delicious Food Of Mediterranean Cuisine",paragraph:'Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.',viewmore:true}
+]

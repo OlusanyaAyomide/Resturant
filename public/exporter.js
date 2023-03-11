@@ -28,7 +28,12 @@ import Popular01  from "./Popular01.png"
 import Popular02  from "./Popular02.png"
 import Popular03  from "./Popular03.png"
 import Popular04  from "./Popular04.png"
+import Calendar from "./Calendar.svg"
+import Cafe from "./Cafe.svg"
+import Bike from "./Bike.svg"
+import Blog001 from "./Blog001.png"
+
 const Resources={
-    Logo:Logo,CafeView,Location,OpenHours,Reservation,Sittings,Josefine,Dish01,Dish02,Dish03,Dish04,Starter01,Starter02,Starter03,Starter04,Desert01,Desert02,Special,Testimony01,Testimony02,Testimony03,Testimony,BlackStar,WhiteStar,SpecialOffer01,SpecialOffer02,Popular01,Popular02,Popular03,Popular04
+    Logo:Logo,CafeView,Location,OpenHours,Reservation,Sittings,Josefine,Dish01,Dish02,Dish03,Dish04,Starter01,Starter02,Starter03,Starter04,Desert01,Desert02,Special,Testimony01,Testimony02,Testimony03,Testimony,BlackStar,WhiteStar,SpecialOffer01,SpecialOffer02,Popular01,Popular02,Popular03,Popular04,Calendar,Cafe,Bike,Blog001
 } 
 export default Resources
